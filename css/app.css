@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+body {
+    background-color: #efefef;
+}
+
+button {
+    border-color: #efefef;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.bg-blue {
+    background-color: lightblue;
+}
+
+.bg-purple {
+    background-color: rgb(207, 14, 207);
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-lightgreen {
+    background-color: lightgreen;
+}
+
+.tags {
+    border-radius: 25px;
+    text-align: center;
+    font-size: small;
+    padding: 2px;
+}
+
+.container {
+    background-color: white;
+    max-width: 1000px;
+    margin: 2px auto;
+    padding: 15px 30px;
+    border-radius: 2px;
+}
+
+.list {
+    padding: 10px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.symbol {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.checkmark {
+    color: green;
+
+}
+
+.cross {
+    color: red;
+}
